@@ -79,7 +79,7 @@ b{
 .p-2{
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
-    color:  #808080;
+    color:  #5B6066;
 }
 .img-icon{
     width: 10px;
@@ -240,23 +240,26 @@ h2{
     float: center;
 }
 .skills{
-    column-count: 3;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 800px;
     text-align: center;
     padding-left: 230px;
-
 }
 .skills-keterangan{
-    column-count: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 800px;
     padding-left: 190px;
 }
 .skills-list{
-    column-count: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 800px;
     font-size: 15px;
     margin-top: 40px;
     margin-left: 270px;
+    margin-bottom: 50px;
 }
 #skills{
     font-family: 'Rubik', sans-serif;
@@ -280,6 +283,8 @@ h2{
 .experience{
     padding-left: 500px;
     padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F7D6A1;
 }
 .experience ul{
     list-style: none;
@@ -288,4 +293,60 @@ h2{
 .experience ul li{
     float: none;
     margin-bottom: 50px;
+}
+.pict-4{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    top: 0px;
+    z-index: 2;
+
+}
+.free{
+    width:50px;
+}
+#h2-contact{
+    text-align: center;
+}
+.contact-me{
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+.cont-1{
+    font-size: 15px;
+}
+.contact{
+    padding-left: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact ul{
+    list-style: none;
+}
+.contact ul li{
+    float: none;
+    margin-bottom: 50px;
+}
+.cont-icon{
+    width: 15px;
+}
+.cont{
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+}
+.ket-cont{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-gap: 
+}
+.section-5{
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
 }
