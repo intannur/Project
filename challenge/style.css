@@ -1,5 +1,5 @@
 body{
-    background-color: #FFC2C4;
+    background-color: #FBDAEA;
 }
 #heading{
     float: left;
@@ -69,6 +69,13 @@ p{
     line-height: 2px;
     font-family: 'Rubik', sans-serif;
 }
+.circle{
+    float: right;
+    opacity: 50%;
+    width: 250px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
 b{
     color: blue;
 }
@@ -107,10 +114,6 @@ b{
     left: 50px;
     padding-left: 370px;
     padding-top: 150px;
-}
-#mydiv2{
-    padding-top: 25px;
-    border-top: 1px solid #808080;
 }
 .img-icon-down{
     width: 50px;
@@ -186,6 +189,30 @@ h2{
     margin-top: 20px;
     line-height: 40px;
 }
+.time-list {
+    float: left;
+}
+.time-list ul {
+    list-style: none;
+    text-align: left;
+    margin-left:230px; 
+    margin-top: 37px;
+    font-family: 'Rubik', sans-serif;
+}
+.time-list ul li {
+    float: none; 
+    font-size: 15px;
+    color: #525252;
+}
+.li-time-1{
+line-height: 225px;
+}
+.li-time-2{
+line-height: 20px;
+}
+.li-time-3{
+line-height: 220px;
+}
 #infinity{
     padding-top: 60px;
 }
@@ -239,6 +266,18 @@ h2{
     border-radius: 40%;
     float: center;
 }
+.skills-icon{
+    display: grid;
+    grid-gap: 220px;
+    grid-template-columns: 1fr 1fr 1fr;
+    float: left;
+    margin-left: 305px;
+    margin-bottom: 10px;
+}
+#icon-skills{
+    width: 50px;
+    float: left;
+}
 .skills{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -264,8 +303,7 @@ h2{
 #skills{
     font-family: 'Rubik', sans-serif;
 }
-#skills-heading{
-    margin-bottom: 120px;  
+#skills-heading{ 
     float: left;
     padding-left: 300px;
 }
@@ -280,6 +318,12 @@ h2{
 .list-1{
     font-size: 20px;
 }
+#experience{
+    background-image: url('assets/icon/rec.png');
+    background-repeat:no-repeat;
+    background-size: 250px;
+    background-position: 10% 40%;
+}
 .experience{
     padding-left: 500px;
     padding-top: 50px;
@@ -288,7 +332,6 @@ h2{
 }
 .experience ul{
     list-style: none;
-
 }
 .experience ul li{
     float: none;
