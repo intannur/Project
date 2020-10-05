@@ -318,24 +318,15 @@ line-height: 220px;
 .list-1{
     font-size: 20px;
 }
-#experience{
-    background-image: url('assets/icon/rec.png');
-    background-repeat:no-repeat;
-    background-size: 250px;
-    background-position: 10% 40%;
-}
-.experience{
-    padding-left: 500px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #F7D6A1;
-}
 .experience ul{
     list-style: none;
 }
 .experience ul li{
-    float: none;
     margin-bottom: 50px;
+}
+.check-experience{
+    width: 80px;
+
 }
 .pict-4{
     width: 600px;
