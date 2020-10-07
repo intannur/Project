@@ -314,19 +314,30 @@ line-height: 220px;
 }
 .my-experience{
     font-size: 50px;
+    margin-bottom: 20px;
 }
 .list-1{
     font-size: 20px;
+}
+.experience{
+    display: grid;
+    grid-template-columns: 300px 900px;
+    grid-gap: 10px;
 }
 .experience ul{
     list-style: none;
 }
 .experience ul li{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .check-experience{
-    width: 80px;
-
+    width: 60px;
+    margin-bottom: 60px;
+    margin-left: 250px;
+}
+.experience-ul{
+    list-style: none;
+    margin-left: 170px;
 }
 .pict-4{
     width: 600px;
@@ -336,7 +347,6 @@ line-height: 220px;
     position: relative;
     top: 0px;
     z-index: 2;
-
 }
 .free{
     width:50px;
@@ -352,7 +362,7 @@ line-height: 220px;
     font-size: 15px;
 }
 .contact{
-    padding-left: 500px;
+    padding-left: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -377,8 +387,23 @@ line-height: 220px;
     grid-gap: 
 }
 #my-contact{
-    background-color: #fff;
+    background: url('assets/image/pict-5.jpg');
+    background-size: 100%;
+    background-position: 0 250px;
+    background-repeat: no-repeat;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 50px;
+
+}
+.p-contact{
+    width: 150px;
+    font-size: 15px;
+    color: grey;
+    line-height: 15px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.div-contact{
+    display: grid;
+    grid-template-columns: 400px 900px;
 }
